@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"BUDGETGAMER1503"
+		],
+		"product_type": "addon"
+	},
+	"header": {
+		"name": "AI HELPER v1.1.0",
+		"description": "MODJAM 2025 ADDON",
+		"min_engine_version": [
+			1,
+			21,
+			111
+		],
+		"uuid": "b63d756c-eade-4abc-8ef8-81c3ac203001",
+		"version": [
+			1,
+			1,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "00ea0e54-d079-41b9-aa4a-8b69fb75cc0d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "12b2c2e0-28f1-4cdc-ab92-e9b598529f5e",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				1,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.2.0"
+		}
+	]
+}
